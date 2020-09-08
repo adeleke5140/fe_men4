@@ -75,6 +75,7 @@ main button.register {
 }
 
 footer {
+  margin-top: 4%;
   color: #fff;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
