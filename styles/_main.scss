@@ -39,10 +39,10 @@ main {
     }
     p.subtitle{
         line-height: 1.6;
-        width: 96%;
+        width: 85%;
         text-align: center;
         margin: 0 auto;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     button.register {
         border:none;
@@ -52,20 +52,23 @@ main {
         border-radius:2em;
         align-self: center;
         font-size:1.1rem;
-        margin-top: 4%;
+        margin-top: 8%;
     }
 }
 
 footer {
-    margin-top: 4%;
     color:$p-color2;
     grid-column: 2/3;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 8%;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 5em;
     a{
         text-decoration: none;
         color: $p-color2;
         margin-right: 4%;
+    }
+    .fab{
+        font-size: 20px;
     }
 }
