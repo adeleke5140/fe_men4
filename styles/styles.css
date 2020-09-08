@@ -55,10 +55,10 @@ main h1.title {
 
 main p.subtitle {
   line-height: 1.6;
-  width: 96%;
+  width: 85%;
   text-align: center;
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 main button.register {
@@ -71,11 +71,10 @@ main button.register {
       -ms-grid-row-align: center;
       align-self: center;
   font-size: 1.1rem;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
 footer {
-  margin-top: 4%;
   color: #fff;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -83,16 +82,21 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-right: 8%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-top: 5em;
 }
 
 footer a {
   text-decoration: none;
   color: #fff;
   margin-right: 4%;
+}
+
+footer .fab {
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 767px) {
@@ -127,6 +131,24 @@ footer a {
     padding: .8em 4em;
     -webkit-box-shadow: 2px 2px 2px #444444;
             box-shadow: 2px 2px 2px #444444;
+  }
+  .container footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 10%;
+  }
+  .container footer a {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-right: 2em;
+  }
+  .container footer .fab {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

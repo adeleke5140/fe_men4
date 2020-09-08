@@ -27,5 +27,19 @@
                 box-shadow: 2px 2px 2px #444444;
             }
         }
+
+        footer{
+            display:flex;
+            margin:0;
+            justify-content: flex-end;
+            margin-right: 10%;
+            a{
+                align-self: flex-end;
+                margin-right: 2em;
+            }
+            .fab{
+                font-size: 30px;
+            }
+        }
     }
 }
