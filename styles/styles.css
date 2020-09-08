@@ -74,14 +74,24 @@ main button.register {
   margin-top: 4%;
 }
 
-.attribution {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 9%;
+footer {
+  color: #fff;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 8%;
 }
 
-.attribution a {
+footer a {
+  text-decoration: none;
   color: #fff;
+  margin-right: 4%;
 }
 
 @media only screen and (min-width: 767px) {
